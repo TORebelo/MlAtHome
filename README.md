@@ -23,7 +23,7 @@
 
 | **Vídeos (Intuição)** | **Teoria (Livros)** | **Exercícios Práticos (Site)** | **Entrega (Checkpoint)** |
 | --- | --- | --- | --- |
-| **K. Weinberger:** 1, 2, 3, 4, 5, 6, 11, 12, 13, 14, 15🎥 **Stephen Boyd** — Convex Optimization (Stanford EE364a) | **[Boyd]:**• Cap 2 (Convex Sets)• Cap 3 (Convex Functions)• Cap 4 (Convex Problems)• Cap 9 (Newton's Method)📄 Boyd lecture notes on Newton's Method | **Álgebra Linear:**(21) Dot Product(38) Matrix Transpose(35) Matrix Trace(30) 3D Vector Norm(20) Normalize Vectors(63) Angle Between Vectors(92) Make Diagonal Matrix**Otimização:**(25) Gradient Descent 1D(55) Mean Squared Error(3) Adam, (36) AdaGrad(93) RMSProp, (50) Nesterov(15) AdamW, (12) Nadam(61) AdaDelta(13) Learning Rate Scheduler | **Optimization Showdown:**1. Implementar biblioteca álgebra linear do zero2. Implementar 8 otimizadores3. Testar em Rosenbrock (não-convexo)4. **Implementar Newton's Method 2D manualmente**5. Provar convergência quadrática Newton vs linear GD**Relatório LaTeX:** Análise comparativa com provas matemáticas |
+| **K. Weinberger:** 1, 2, 3, 4, 5, 6, 11, 12, 13, 14, 15🎥 **Stephen Boyd** — Convex Optimization (Stanford EE364a)🎥 **freeCodeCamp:** [Machine Learning for Everybody](https://www.youtube.com/watch?v=i_LwzRVP7bg) (3:53:53)🎥 **freeCodeCamp:** [No Black Box Machine Learning Course](https://www.youtube.com/watch?v=vDDjtwQDw2k) (3:51:31)🎥 **Stanford CS229:** Lectures 1-2 (Andrew Ng) - Introduction, Linear Regression, Gradient Descent | **[Boyd]:**• Cap 2 (Convex Sets)• Cap 3 (Convex Functions)• Cap 4 (Convex Problems)• Cap 9 (Newton's Method)📄 Boyd lecture notes on Newton's Method | **Álgebra Linear:**(21) Dot Product(38) Matrix Transpose(35) Matrix Trace(30) 3D Vector Norm(20) Normalize Vectors(63) Angle Between Vectors(92) Make Diagonal Matrix**Otimização:**(25) Gradient Descent 1D(55) Mean Squared Error(3) Adam, (36) AdaGrad(93) RMSProp, (50) Nesterov(15) AdamW, (12) Nadam(61) AdaDelta(13) Learning Rate Scheduler | **Optimization Showdown:**1. Implementar biblioteca álgebra linear do zero2. Implementar 8 otimizadores3. Testar em Rosenbrock (não-convexo)4. **Implementar Newton's Method 2D manualmente**5. Provar convergência quadrática Newton vs linear GD**Relatório LaTeX:** Análise comparativa com provas matemáticas |
 
 ---
 
@@ -31,7 +31,7 @@
 
 | **Vídeos (Intuição)** | **Teoria (Livros)** | **Exercícios Práticos (Site)** | **Entrega (Checkpoint)** |
 | --- | --- | --- | --- |
-| **Andrew Ng:** Bias/Variance concepts**K. Weinberger:** 16, 17, 18, 19, 20, 28, 29, 30, 31, 32, 33, 34🎥 **StatQuest** — Bias/Variance | **[ESL]:**• Cap 2 (Overview/Decision Theory)• Cap 7 (Model Assessment)  *Foco: Eq 7.9 (Effective Parameters)*📘 Hastie & Tibshirani — *An Introduction to Statistical Learning* (versão curta) | **Estatística:**(47) Mean, Median, Mode(78) Sample Variance & Std Dev(57) Percentiles/Quantiles(40) Bernoulli PMF(4) Binomial PMF(59) Poisson PMF & CDF(99) Geometric PMF(100) Expected Value(88) One-Sample t-Test(41) Chi-Square Test(44) Bootstrap CI | **Bias-Variance Lab:**1. Gerar dados sintéticos2. Fit polinómios de grau crescente3. **Criar visualização bias-variance decomposition** (não no site)4. Plotar train vs test error curves5. Decompor erro em Bias², Variância, Erro Irredutível**Relatório LaTeX:** Explicar "Optimism of Training Error" |
+| **Andrew Ng:** Bias/Variance concepts**K. Weinberger:** 16, 17, 18, 19, 20, 28, 29, 30, 31, 32, 33, 34🎥 **StatQuest** — Bias/Variance🎥 **freeCodeCamp:** [Machine Learning Course for Beginners](https://www.youtube.com/watch?v=NWONeJKn6kc) (9:52:19)🎥 **Stanford CS229:** Lectures 8-10 - Data Splits, Models, Cross-Validation, Decision Trees | **[ESL]:**• Cap 2 (Overview/Decision Theory)• Cap 7 (Model Assessment)  *Foco: Eq 7.9 (Effective Parameters)*📘 Hastie & Tibshirani — *An Introduction to Statistical Learning* (versão curta) | **Estatística:**(47) Mean, Median, Mode(78) Sample Variance & Std Dev(57) Percentiles/Quantiles(40) Bernoulli PMF(4) Binomial PMF(59) Poisson PMF & CDF(99) Geometric PMF(100) Expected Value(88) One-Sample t-Test(41) Chi-Square Test(44) Bootstrap CI | **Bias-Variance Lab:**1. Gerar dados sintéticos2. Fit polinómios de grau crescente3. **Criar visualização bias-variance decomposition** (não no site)4. Plotar train vs test error curves5. Decompor erro em Bias², Variância, Erro Irredutível**Relatório LaTeX:** Explicar "Optimism of Training Error" |
 
 ---
 
@@ -39,7 +39,7 @@
 
 | **Vídeos (Intuição)** | **Teoria (Livros)** | **Exercícios Práticos (Site)** | **Entrega (Checkpoint)** |
 | --- | --- | --- | --- |
-| **Andrew Ng:** GMMs & EM Algorithm, Regularization**K. Weinberger:** 7, 8, 9, 10, 26, 27📄 Tibshirani (1996) — Lasso original | **[ESL]:**• Cap 3 (Linear Methods: Ridge/Lasso)• Cap 4.4 (LDA)• Cap 8.5 (EM Algorithm) | **Modelos & Métricas:**(6) Covariance Matrix(83) Pearson Correlation(2) Logistic Regression Loop(1) Sigmoid(54) Accuracy, Precision, Recall, F1(48) Micro-F1(62) R² Score(67) Confusion Matrix(45) AUC, (76) ROC Curve(8) Euclidean Distance(77) Manhattan Distance(24) Cosine Similarity | **The Linear Suite:**1. **Implementar Ridge (L2) do zero**2. **Implementar Lasso (L1) do zero**3. **Implementar GMM com EM Algorithm**4. Implementar Logistic Regression completa5. **Plotar geometria L1 vs L2** (diamante vs círculo)6. Aplicar testes estatísticos (Sprint 2) para validar modelos**Relatório LaTeX:** Demonstração geométrica da sparsity do Lasso |
+| **Andrew Ng:** GMMs & EM Algorithm, Regularization**K. Weinberger:** 7, 8, 9, 10, 26, 27📄 Tibshirani (1996) — Lasso original🎥 **freeCodeCamp:** [Scikit-Learn Course](https://www.youtube.com/watch?v=0B5eIE_1vpU) (2:54:25)🎥 **freeCodeCamp:** [Scikit-learn Crash Course](https://www.youtube.com/watch?v=M9Itm95JzL0) (2:09:22)🎥 **Stanford CS229:** Lectures 3-7 - Logistic Regression, Perceptron, GDA, Naive Bayes, SVM, Kernels🎥 **Stanford CS229:** Lectures 14-15 - EM Algorithm, Factor Analysis | **[ESL]:**• Cap 3 (Linear Methods: Ridge/Lasso)• Cap 4.4 (LDA)• Cap 8.5 (EM Algorithm) | **Modelos & Métricas:**(6) Covariance Matrix(83) Pearson Correlation(2) Logistic Regression Loop(1) Sigmoid(54) Accuracy, Precision, Recall, F1(48) Micro-F1(62) R² Score(67) Confusion Matrix(45) AUC, (76) ROC Curve(8) Euclidean Distance(77) Manhattan Distance(24) Cosine Similarity | **The Linear Suite:**1. **Implementar Ridge (L2) do zero**2. **Implementar Lasso (L1) do zero**3. **Implementar GMM com EM Algorithm**4. Implementar Logistic Regression completa5. **Plotar geometria L1 vs L2** (diamante vs círculo)6. Aplicar testes estatísticos (Sprint 2) para validar modelos**Relatório LaTeX:** Demonstração geométrica da sparsity do Lasso |
 
 ---
 
@@ -47,7 +47,7 @@
 
 | **Vídeos (Intuição)** | **Teoria (Livros)** | **Exercícios Práticos (Site)** | **Entrega (Checkpoint)** |
 | --- | --- | --- | --- |
-| **S. Brunton:** Sparsity & Compressed Sensing📄 Donoho — High-Dimensional Data Analysis | **[ESL]:**• Cap 18 (High-Dimensional)  Sec 18.3, 18.4, 18.6 | **Data Engineering:**(89) Eigenvalues(33) Matrix Inverse(18) Batch Shuffling ⭐(23) K-Fold Split(87) Stratified Split(73) Impute Missing Values(46) Min-Max Normalization(97) z-Score Standardization(95) Streaming Min-Max(26) Matrix Normalization(52) One-Hot Encoding | **Curse of Dimensionality:**1. Criar dataset onde p cresce até ultrapassar N2. **Implementar PCA do zero usando SVD** (não no site)3. Demonstrar colapso de Regressão Linear padrão4. Mostrar recuperação via L1 regularization5. Construir pipeline completo de dados**Relatório LaTeX:** Análise teórica de quando L1 recupera soluções esparsas |
+| **S. Brunton:** Sparsity & Compressed Sensing📄 Donoho — High-Dimensional Data Analysis🎥 **Stanford CS229:** Lecture 9 - Approximation/Estimation Error & ERM | **[ESL]:**• Cap 18 (High-Dimensional)  Sec 18.3, 18.4, 18.6 | **Data Engineering:**(89) Eigenvalues(33) Matrix Inverse(18) Batch Shuffling ⭐(23) K-Fold Split(87) Stratified Split(73) Impute Missing Values(46) Min-Max Normalization(97) z-Score Standardization(95) Streaming Min-Max(26) Matrix Normalization(52) One-Hot Encoding | **Curse of Dimensionality:**1. Criar dataset onde p cresce até ultrapassar N2. **Implementar PCA do zero usando SVD** (não no site)3. Demonstrar colapso de Regressão Linear padrão4. Mostrar recuperação via L1 regularization5. Construir pipeline completo de dados**Relatório LaTeX:** Análise teórica de quando L1 recupera soluções esparsas |
 
 ---
 
@@ -57,7 +57,7 @@
 
 | **Vídeos (Intuição)** | **Teoria (Livros)** | **Exercícios Práticos (Site)** | **Entrega (Checkpoint)** |
 | --- | --- | --- | --- |
-| **Andrew Ng:** Momentum / Adam**K. Weinberger:** 35, 36, 37🎥 **CS231n** — Optimization & Backprop📄 Goodfellow — Saddle Points paper | **[DL Book]:**• Cap 4 (Numerical)• Cap 6 (Deep Feedforward)• Cap 7 (Regularization)• Cap 8 (Optimization)  *Foco: Saddle Points & Hessians* | **DL Building Blocks:**(10) Dropout(16) Batch Normalization(11) Gradient Clipping(65) ReLU, (31) Leaky ReLU(14) GELU, (37) Swish(80) Tanh, (79) Softmax**Loss Functions:**(70) Cross-Entropy Loss(72) Hinge Loss(27) Huber Loss(42) Focal Loss(32) Dice Loss | **Optimizer Benchmark + MLP:**1. Implementar MLP de 3 camadas em NumPy puro2. Treinar no MNIST com diferentes otimizadores3. Analisar estabilidade em Saddle Points4. **Computar Hessian eigenvalues manualmente** (não no site)5. Comparar convergência em loss landscapes**Relatório LaTeX:** Análise de por que Adam funciona melhor em high-dimensional spaces |
+| **Andrew Ng:** Momentum / Adam**K. Weinberger:** 35, 36, 37🎥 **CS231n** — Optimization & Backprop📄 Goodfellow — Saddle Points paper🎥 **freeCodeCamp:** [TensorFlow 2.0 Complete Course](https://www.youtube.com/watch?v=tPYj3fFJGjk) (6:52:08)🎥 **freeCodeCamp:** [PyTorch for Deep Learning & ML](https://www.youtube.com/watch?v=V_xro1bcAuA) (25:37:26)🎥 **freeCodeCamp:** [Practical Deep Learning (fast.ai)](https://www.youtube.com/watch?v=0oyCUWLL_fU) (11:12:32)🎥 **freeCodeCamp:** [Deep Learning Crash Course](https://www.youtube.com/watch?v=VyWAvY2CF9c) (1:25:39)🎥 **freeCodeCamp:** [Keras with TensorFlow Course](https://www.youtube.com/watch?v=qFJeN9V1ZsI) (2:47:55)🎥 **freeCodeCamp:** [How Deep Neural Networks Work](https://www.youtube.com/watch?v=dPWYUELwIdM) (3:50:57)🎥 **freeCodeCamp:** [TensorFlow 2.0 Crash Course](https://www.youtube.com/watch?v=6g4O5UOH304) (2:13:17)🎥 **Stanford CS229:** Lectures 11-13 - Neural Networks, Backprop, Debugging ML Models | **[DL Book]:**• Cap 4 (Numerical)• Cap 6 (Deep Feedforward)• Cap 7 (Regularization)• Cap 8 (Optimization)  *Foco: Saddle Points & Hessians* | **DL Building Blocks:**(10) Dropout(16) Batch Normalization(11) Gradient Clipping(65) ReLU, (31) Leaky ReLU(14) GELU, (37) Swish(80) Tanh, (79) Softmax**Loss Functions:**(70) Cross-Entropy Loss(72) Hinge Loss(27) Huber Loss(42) Focal Loss(32) Dice Loss | **Optimizer Benchmark + MLP:**1. Implementar MLP de 3 camadas em NumPy puro2. Treinar no MNIST com diferentes otimizadores3. Analisar estabilidade em Saddle Points4. **Computar Hessian eigenvalues manualmente** (não no site)5. Comparar convergência em loss landscapes**Relatório LaTeX:** Análise de por que Adam funciona melhor em high-dimensional spaces |
 
 ---
 
@@ -73,7 +73,7 @@
 
 | **Vídeos (Intuição)** | **Teoria (Livros)** | **Exercícios Práticos (Site)** | **Entrega (Checkpoint)** |
 | --- | --- | --- | --- |
-| **CS224n (Stanford):** Transformers**K. Weinberger:** 21, 22, 23, 24, 25, 40[Additional Lecture 2023](https://youtu.be/kCc8FmEb1nY)📄 Rahimi & Recht — Random Features | **[ESL]:** Sec 12.3 (SVMs & Kernels)*Estudar SVM como problema dual + kernel trick, NÃO como classificador***Paper:** Attention Is All You Need | **Sequências & NLP:**(9) RNN Step Forward(68) RNN Step Backward ⭐(17) Mini GRU Cell(98) Positional Encoding ⭐(69) Causal Masking ⭐(60) Pad Sequences(39) Bag-of-Words(82) TF-IDF ⭐(64) Bigram Probabilities(96) Word Count(66) Remove Stopwords(34) BM25 Ranking | **Attention Anatomy:**1. **Implementar Scaled Dot-Product Attention** (não no site completo)2. Implementar Transformer encoder-only (1 head)3. Testar em classificação de texto4. Comparar matematicamente attention com kernel smoothing5. Mostrar: primal→dual, kernel como inner product**Relatório LaTeX:** Demonstrar analogia entre attention e kernels aprendidos |
+| **CS224n (Stanford):** Transformers**K. Weinberger:** 21, 22, 23, 24, 25, 40[Additional Lecture 2023](https://youtu.be/kCc8FmEb1nY)📄 Rahimi & Recht — Random Features🎥 **freeCodeCamp:** [Python TensorFlow - Neural Network Text Classification](https://www.youtube.com/watch?v=VVpRWTEedc8) (1:54:11) | **[ESL]:** Sec 12.3 (SVMs & Kernels)*Estudar SVM como problema dual + kernel trick, NÃO como classificador***Paper:** Attention Is All You Need | **Sequências & NLP:**(9) RNN Step Forward(68) RNN Step Backward ⭐(17) Mini GRU Cell(98) Positional Encoding ⭐(69) Causal Masking ⭐(60) Pad Sequences(39) Bag-of-Words(82) TF-IDF ⭐(64) Bigram Probabilities(96) Word Count(66) Remove Stopwords(34) BM25 Ranking | **Attention Anatomy:**1. **Implementar Scaled Dot-Product Attention** (não no site completo)2. Implementar Transformer encoder-only (1 head)3. Testar em classificação de texto4. Comparar matematicamente attention com kernel smoothing5. Mostrar: primal→dual, kernel como inner product**Relatório LaTeX:** Demonstrar analogia entre attention e kernels aprendidos |
 
 ---
 
@@ -81,7 +81,7 @@
 
 | **Vídeos (Intuição)** | **Teoria (Livros)** | **Exercícios Práticos (Site)** | **Entrega (Checkpoint)** |
 | --- | --- | --- | --- |
-| 🎥 **CS231n** — CNNs | **[DL Book]:** Cap 9 (CNNs)*Convolution mathematics* | (94) Simple CNN Layer(19) Global Average Pooling(91) 4x4 Homogeneous Transform | **LeNet-5 Clone:**1. **Implementar conv2d com im2col** (não no site)2. Construir CNN completa em NumPy3. Treinar no MNIST**Relatório LaTeX:** Análise matemática de convolução como operação linear |
+| 🎥 **CS231n** — CNNs🎥 **freeCodeCamp:** [Self-Driving Car with JavaScript](https://www.youtube.com/watch?v=Rs_rAxEsAvI) (2:32:40)🎥 **freeCodeCamp:** [OpenCV Course - Full Tutorial](https://www.youtube.com/watch?v=oXlwWbU8l2o) (3:41:42)🎥 **freeCodeCamp:** [Computer Vision and Perception for Self-Driving Cars](https://www.youtube.com/watch?v=cPOtULagNnI) (1:59:38) | **[DL Book]:** Cap 9 (CNNs)*Convolution mathematics* | (94) Simple CNN Layer(19) Global Average Pooling(91) 4x4 Homogeneous Transform | **LeNet-5 Clone:**1. **Implementar conv2d com im2col** (não no site)2. Construir CNN completa em NumPy3. Treinar no MNIST**Relatório LaTeX:** Análise matemática de convolução como operação linear |
 
 ---
 
@@ -95,11 +95,21 @@
 
 ---
 
+### **Sprint 9.5 Novo — Boosting & Time-Series (3 semanas)**
+
+Inserir **ANTES** de Sprint 10 (RL):
+
+| **Vídeos (Intuição)** | **Teoria (Livros)** | **Exercícios Práticos** | **Entrega** |
+| --- | --- | --- | --- |
+| 🎥 **StatQuest:** XGBoost, Gradient Boosting🎥 **ritvikmath:** Time-Series📄 **XGBoost paper** (Chen & Guestrin) | **[ESL]** Cap 10 (Boosting)Cap 14.7 (CART improvements)📘 **Rob Hyndman** — *Forecasting: Principles & Practice*Cap 8 (ARIMA), Cap 9 (Dynamic regression) | **Semana 1:**• Implementar AdaBoost do zero• Usar XGBoost (library) em dataset• Feature importance analysis**Semana 2:**• Implementar ARIMA do zero• Stationarity tests (ADF)• Forecast S&P500 returns**Semana 3:**• Feature engineering financeiro:  - Lag features  - Rolling windows  - Technical indicators  - Fractional differentiation (López de Prado) | **XGBoost vs RL Baseline:**1. Treinar XGBoost para prever direção do mercado2. Comparar com regressão logística3. Feature importance (SHAP)4. Usar como **baseline para Sprint 19Time-Series Report:**1. ARIMA vs persistence model2. Análise de stationarity3. Forecast evaluation (RMSE, MAE)**Relatório LaTeX:** Por que boosting funciona? Conexão com bias-variance. |
+
+---
+
 ### **Sprint 10: Reinforcement Learning Core** (Semanas 25-27)
 
 | **Vídeos (Intuição)** | **Teoria (Livros)** | **Exercícios Práticos (Site)** | **Entrega (Checkpoint)** |
 | --- | --- | --- | --- |
-| **David Silver:** Policy Gradients📄 Peters & Schaal — Natural Policy Gradients | **[Sutton]:**• Cap 6 (TD Learning)• Cap 13 (Policy Gradient)  Sec 13.2 (The Theorem) | (58) Monte Carlo Policy Eval(84) Tabular Q-Learning(90) TD Value Update(71) ε-Greedy Selection(5) Advantage Computation ⭐ | **RL Trilogy:**1. Implementar Tabular Q-Learning, SARSA, Monte Carlo2. **Implementar REINFORCE do zero** (não no site)3. Testar em CartPole4. Derivar ∇J(θ) matematicamente5. Implementar baseline e mostrar redução de variância**Relatório LaTeX:** Derivação do Policy Gradient Theorem e Log-Derivative Trick |
+| **David Silver:** Policy Gradients📄 Peters & Schaal — Natural Policy Gradients🎥 **Stanford CS229:** Lectures 16-18 - ICA & RL, MDPs, Value/Policy Iteration, Continuous State MDP | **[Sutton]:**• Cap 6 (TD Learning)• Cap 13 (Policy Gradient)  Sec 13.2 (The Theorem) | (58) Monte Carlo Policy Eval(84) Tabular Q-Learning(90) TD Value Update(71) ε-Greedy Selection(5) Advantage Computation ⭐ | **RL Trilogy:**1. Implementar Tabular Q-Learning, SARSA, Monte Carlo2. **Implementar REINFORCE do zero** (não no site)3. Testar em CartPole4. Derivar ∇J(θ) matematicamente5. Implementar baseline e mostrar redução de variância**Relatório LaTeX:** Derivação do Policy Gradient Theorem e Log-Derivative Trick |
 
 ---
 
@@ -107,7 +117,7 @@
 
 | **Vídeos (Intuição)** | **Teoria (Livros)** | **Exercícios Práticos (Site)** | **Entrega (Checkpoint)** |
 | --- | --- | --- | --- |
-| 🎥 **OpenAI Spinning Up** — PPOYouTube: PPO Explained📄 Schulman — TRPO paper | **[Boyd]:** Cap 5 (Duality)**Papers:** TRPO / PPO | (5) Advantage (revisão)(75) KL Divergence (revisão) | **PPO Deep Dive:**1. **Implementar PPO com clipping** (não no site)2. Treinar em LunarLander-v23. Comparar com/sem clipping4. Conectar clipping com Dualidade Lagrangiana5. Mostrar restrição de trust region**Relatório LaTeX:** Demonstrar matematicamente porque PPO é aproximação de TRPO |
+| 🎥 **OpenAI Spinning Up** — PPOYouTube: PPO Explained📄 Schulman — TRPO paper🎥 **Stanford CS229:** Lectures 19-20 - Reward Model, Linear Dynamical System, RL Debugging | **[Boyd]:** Cap 5 (Duality)**Papers:** TRPO / PPO | (5) Advantage (revisão)(75) KL Divergence (revisão) | **PPO Deep Dive:**1. **Implementar PPO com clipping** (não no site)2. Treinar em LunarLander-v23. Comparar com/sem clipping4. Conectar clipping com Dualidade Lagrangiana5. Mostrar restrição de trust region**Relatório LaTeX:** Demonstrar matematicamente porque PPO é aproximação de TRPO |
 
 ---
 
@@ -119,7 +129,87 @@
 
 ---
 
-## 🔬 FASE 4: Estruturas Especializadas (6 semanas)
+## � **SPRINTS OPCIONAIS: Data Science Tradicional**
+
+*Estes sprints são **opcionais** e podem ser feitos em paralelo ou após o roadmap principal. Focam em habilidades práticas de Data Science que complementam o conhecimento teórico de ML.*
+
+---
+
+### **Sprint Opcional A: Data Science Toolkit — EDA & Feature Engineering** (3 semanas)
+
+📍 **Recomendado:** Após Sprint 4 ou em paralelo com Fase 2
+
+| **Vídeos (Intuição)** | **Teoria (Livros)** | **Exercícios Práticos** | **Entrega (Checkpoint)** |
+| --- | --- | --- | --- |
+| 🎥 **Kaggle:** Learn courses (Pandas, Data Viz)🎥 **Ken Jee:** Data Science Project Walkthroughs📄 **Tufte** — Visual Display of Quantitative Information | 📘 **Wes McKinney** — *Python for Data Analysis*📘 **Jake VanderPlas** — *Python Data Science Handbook*📄 **Feature Engineering Guide** (Kaggle) | **Semana 1 (EDA):**• Histogramas, box plots, violin plots• Correlation matrices (Seaborn)• Interactive plots (Plotly)• Distribution analysis• Outlier detection (IQR, Z-score, Isolation Forest)**Semana 2 (Feature Engineering):**• Target encoding, frequency encoding• Feature interactions• Polynomial features• Date/time features• Text features (TF-IDF, embeddings)**Semana 3 (Pipeline Completo):**• sklearn Pipeline• Feature selection (RFE, SHAP)• Automated feature engineering (featuretools) | **Kaggle Competition Entry:**1. Escolher competição ativa (tabular data)2. **EDA Notebook:** Top 10% quality• Visualizações publication-ready• Statistical insights documentados3. **Feature Engineering Pipeline:**• Criar 50+ features• Documentar feature importance• Cross-validation rigorosa4. **Submit:** Entrar no top 50%**Relatório:** Storytelling com dados (apresentação de negócio) |
+
+---
+
+### **Sprint Opcional B: Bayesian Methods & Causal Inference** (4 semanas)
+
+📍 **Recomendado:** Após Sprint 6 (VAE) — aproveitas conhecimento de probabilidade
+
+| **Vídeos (Intuição)** | **Teoria (Livros)** | **Exercícios Práticos** | **Entrega (Checkpoint)** |
+| --- | --- | --- | --- |
+| 🎥 **Richard McElreath:** Statistical Rethinking lectures🎥 **Ben Lambert:** Bayesian Statistics📄 **Judea Pearl talks** — Causality | 📘 **Richard McElreath** — *Statistical Rethinking*📘 **Judea Pearl** — *Causality*📘 **Gelman et al.** — *Bayesian Data Analysis*📄 **DoWhy documentation** (Microsoft) | **Semana 1 (Bayesian Basics):**• Conjugate priors• MCMC from scratch (Metropolis-Hastings)• Gibbs sampling• PyMC/Stan basics**Semana 2 (Bayesian Modeling):**• Bayesian linear regression• Hierarchical models• Model comparison (WAIC, LOO)• Posterior predictive checks**Semana 3 (Causal Inference):**• DAGs (Directed Acyclic Graphs)• Backdoor criterion• Propensity score matching• Instrumental variables• Difference-in-differences**Semana 4 (A/B Testing):**• Bayesian A/B testing• Sequential testing (early stopping)• Multi-armed bandits (Thompson Sampling)• Power analysis | **Causal Analysis Report:**1. **Implementar MCMC do zero:**• Metropolis-Hastings• Convergence diagnostics (R-hat, ESS)• Trace plots2. **Causal Study:**• Dataset com confounders• Desenhar DAG• Aplicar 3 métodos (PSM, IV, DiD)• Comparar resultados3. **A/B Test Simulation:**• Simular experimento online• Bayesian analysis• Stopping rules• Cost-benefit analysis**Relatório LaTeX:** Provar causalidade vs correlação num caso real |
+
+---
+
+### **Sprint Opcional C: Time Series Avançado & Forecasting** (3 semanas)
+
+📍 **Recomendado:** Expansão do Sprint 9.5 ou após Sprint 14
+
+| **Vídeos (Intuição)** | **Teoria (Livros)** | **Exercícios Práticos** | **Entrega (Checkpoint)** |
+| --- | --- | --- | --- |
+| 🎥 **ritvikmath:** Time Series playlist📄 **Rob Hyndman blog** — Forecasting principles🎥 **Kaggle:** Time Series courses | 📘 **Rob Hyndman & George Athanasopoulos** — *Forecasting: Principles & Practice* (online grátis)📘 **James Hamilton** — *Time Series Analysis*📄 **Prophet paper** (Facebook) | **Semana 1 (Classical Methods):**• SARIMA (seasonal ARIMA)• Exponential smoothing (Holt-Winters)• Stationarity tests (ADF, KPSS, PP)• Seasonal decomposition (STL)• Granger causality**Semana 2 (Modern Approaches):**• Prophet (Facebook)• TBATS (multiple seasonality)• State-space models• VAR (Vector AutoRegression)• Multivariate forecasting**Semana 3 (Deep Learning for TS):**• LSTM for time series• Temporal Convolutional Networks (TCN)• Transformer for forecasting (Informer)• Conformal prediction (uncertainty) | **Forecasting Competition:**1. **Implementar SARIMA do zero**2. **Benchmark múltiplos métodos:**• Classical: ARIMA, ETS• Modern: Prophet, TBATS• DL: LSTM, Transformer3. **M5 Competition dataset** (Kaggle/Walmart)4. **Evaluation:**• RMSE, MAE, MAPE• Prediction intervals• Forecast combinations5. **Production deployment:**• API com FastAPI• Automated retraining• Monitoring drift**Relatório:** Quando usar cada método? Decision tree prático |
+
+---
+
+### **Sprint Opcional D: Data Engineering & SQL para Data Scientists** (3 semanas)
+
+📍 **Recomendado:** Após Sprint 14 — antes de projetos aplicados
+
+| **Vídeos (Intuição)** | **Teoria (Livros)** | **Exercícios Práticos** | **Entrega (Checkpoint)** |
+| --- | --- | --- | --- |
+| 🎥 **freeCodeCamp:** SQL Full Course🎥 **Corey Schafer:** Pandas tutorials📄 **Designing Data-Intensive Applications** (selected chapters) | 📘 **Martin Kleppmann** — *Designing Data-Intensive Applications*📘 **Joe Reis & Matt Housley** — *Fundamentals of Data Engineering*📄 **dbt documentation** — Analytics engineering | **Semana 1 (SQL Mastery):**• JOINs (inner, left, right, full)• Window functions (ROW_NUMBER, LAG, LEAD)• CTEs (Common Table Expressions)• Subqueries vs JOINs• Query optimization• Indexes**Semana 2 (Data Pipelines):**• ETL vs ELT• Apache Airflow basics• Data validation (Great Expectations)• dbt (data build tool)• Data quality checks**Semana 3 (Big Data & Cloud):**• PySpark basics (RDDs, DataFrames)• Parquet, partitioning strategies• Cloud storage (S3, Azure Blob)• Data warehouses (Snowflake, BigQuery)• Lakehouse architecture | **End-to-End Data Pipeline:**1. **SQL Challenge:**• HackerRank SQL (5-star)• LeetCode SQL (50 problemas)• Window functions mastery2. **Build ETL Pipeline:**• Ingest: API → raw storage• Transform: dbt models• Load: DWH (local Postgres)• Orchestrate: Airflow DAGs• Monitor: data quality tests3. **Big Data Processing:**• Dataset >10GB• Process com PySpark• Optimize partitioning• Compare: Pandas vs Spark vs Polars4. **Dashboard:**• Superset/Metabase/Streamlit• Connect to DWH• Business metrics visualization**Relatório:** Arquitetura completa documentada (diagrams.net) |
+
+---
+
+### **Sprint Opcional E: MLOps & Model Deployment** (3 semanas)
+
+📍 **Recomendado:** Após Sprint 14 ou antes de Fase 5 (research)
+
+| **Vídeos (Intuição)** | **Teoria (Livros)** | **Exercícios Práticos** | **Entrega (Checkpoint)** |
+| --- | --- | --- | --- |
+| 🎥 **MLOps Community:** Talks🎥 **Made With ML:** MLOps course📄 **Google:** MLOps whitepaper | 📘 **Chip Huyen** — *Designing Machine Learning Systems*📄 **ML Test Score** (Google)📄 **Hidden Technical Debt in ML** (Sculley et al.) | **Semana 1 (Model Serving):**• FastAPI for ML models• Docker containerization• Model versioning (MLflow)• A/B testing infrastructure• Shadow deployment**Semana 2 (Monitoring & Observability):**• Data drift detection• Model performance monitoring• Logging & alerting• Feature store (Feast)• Retraining triggers**Semana 3 (CI/CD for ML):**• GitHub Actions for ML• Model testing (unit, integration)• Automated retraining pipeline• Model registry• Rollback strategies | **Production ML System:**1. **Deploy modelo (Sprint anterior) em produção:**• REST API (FastAPI)• Docker + docker-compose• Load testing (Locust)• Latency <100ms (p99)2. **Monitoring Dashboard:**• Prometheus + Grafana• Track: latency, throughput, errors• Data drift alerts (Evidently)• Model performance decay3. **CI/CD Pipeline:**• GitHub Actions workflow• Automated tests (pytest)• Model validation• Automated deployment• Rollback mechanism4. **Documentation:**• API docs (Swagger)• Architecture diagram• Runbook (incident response)• Cost analysis**Relatório:** Post-mortem de um "incident" simulado |
+
+---
+
+## 🎯 **COMO USAR OS SPRINTS OPCIONAIS:**
+
+### **Opção 1: Integrado (Full Data Scientist)**
+Faz todos os sprints opcionais nos momentos recomendados:
+- **Total:** 70 semanas (main) + 16 semanas (optional) = **86 semanas (~20 meses)**
+- **Perfil:** T-shaped (profundo em ML + amplo em DS)
+
+### **Opção 2: Após o Roadmap Principal**
+Completa as 70 semanas primeiro, depois escolhe os opcionais:
+- **Vantagem:** Foco total em research/teoria primeiro
+- **Usa os opcionais** quando precisares para jobs/projetos
+
+### **Opção 3: Cherry-Pick**
+Escolhe só os que interessam:
+- **Quant Finance?** → Skip Sprint D (Data Engineering)
+- **Research only?** → Faz Sprint B (Bayesian/Causal), skip resto
+- **Industry job?** → Todos são úteis, prioriza D e E
+
+### **Opção 4: Em Paralelo (Weekends)**
+Faz sprints opcionais nos weekends enquanto avanças no roadmap principal:
+- **Exemplo:** Segunda-Sexta (Sprint 5: DL), Sábado-Domingo (Sprint A: Kaggle EDA)
+
+---
+
+## �🔬 FASE 4: Estruturas Especializadas (6 semanas)
 
 ### **Sprint 13: Grafos & GNNs** (Semanas 33-35)
 
@@ -143,7 +233,7 @@
 
 | **Vídeos (Intuição)** | **Teoria (Livros)** | **Exercícios Práticos (Site)** | **Entrega (Checkpoint)** |
 | --- | --- | --- | --- |
-| 🎥 **DeepMind** — AlphaZero Explained🎥 **David Silver** — Planning & Learning📄 **Browne et al.** — MCTS Survey📄 **Papers With Code** — How to reproduce | **[Sutton]:** Cap 8 (Planning)Sec 8.8 (MCTS)**Papers (Leitura Obrigatória):**• Silver et al. — AlphaZero• Schrittwieser et al. — MuZero• Ye et al. — EfficientZero📄 **ICLR Reproducibility Checklist** | *(Revisão de todos RL anteriores)*(58) Monte Carlo Policy Eval(84) Q-Learning(5) Advantage Computation(75) KL Divergence | **Paper Reproduction (4 semanas):Semana 1: Código Base**• Escolher: AlphaZero OU MuZero• Implementar MCTS + Networks• Testar em Connect4/Tic-Tac-Toe**Semana 2: Reprodução**• Treinar até convergência• Comparar com resultados do paper• Documentar diferenças**Semana 3: Ablation Study**• Remover MCTS → só policy• Remover value → só MCTS• Variar hyperparameters• Medir impacto de cada componente**Semana 4: Análise Crítica**• Identificar **limitações** do método• Onde falha? (ex: sparse rewards, stochastic)• O que é sensível a hyperparameters?**Entrega (Relatório LaTeX 15-20 pág):**• Derivações matemáticas completas• Código no GitHub (limpo, comentado)• Gráficos de convergência• Tabela de ablations• **Secção de limitações identificadas** |
+| 🎥 **DeepMind** — AlphaZero Explained🎥 **David Silver** — Planning & Learning📄 **Browne et al.** — MCTS Survey📄 **Papers With Code** — How to reproduce🎥 **freeCodeCamp:** [AlphaZero from Scratch](https://www.youtube.com/watch?v=wuSQpLinRB4) (4:07:54) | **[Sutton]:** Cap 8 (Planning)Sec 8.8 (MCTS)**Papers (Leitura Obrigatória):**• Silver et al. — AlphaZero• Schrittwieser et al. — MuZero• Ye et al. — EfficientZero📄 **ICLR Reproducibility Checklist** | *(Revisão de todos RL anteriores)*(58) Monte Carlo Policy Eval(84) Q-Learning(5) Advantage Computation(75) KL Divergence | **Paper Reproduction (4 semanas):Semana 1: Código Base**• Escolher: AlphaZero OU MuZero• Implementar MCTS + Networks• Testar em Connect4/Tic-Tac-Toe**Semana 2: Reprodução**• Treinar até convergência• Comparar com resultados do paper• Documentar diferenças**Semana 3: Ablation Study**• Remover MCTS → só policy• Remover value → só MCTS• Variar hyperparameters• Medir impacto de cada componente**Semana 4: Análise Crítica**• Identificar **limitações** do método• Onde falha? (ex: sparse rewards, stochastic)• O que é sensível a hyperparameters?**Entrega (Relatório LaTeX 15-20 pág):**• Derivações matemáticas completas• Código no GitHub (limpo, comentado)• Gráficos de convergência• Tabela de ablations• **Secção de limitações identificadas** |
 
 ---
 
