@@ -13,7 +13,7 @@
 
 - **Vídeos:** K. Weinberger (Cornell CS4780), Andrew Ng, David Silver
 - **Exercícios Práticos:** Site (100 exercícios NumPy)
-- **Links:** [Cornell Lectures](https://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/) | [Homeworks](https://www.dropbox.com/scl/fi/y5gp6rtpjo4ycs9bfhyzf/Homeworks.zip?rlkey=4dj8mbn19y6injbjmuxwwck35&e=1&dl=0)
+- **Links:** [Cornell Lectures](https://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/) | [Homeworks](https://www.dropbox.com/scl/fi/y5gp6rtpjo4ycs9bfhyzf/Homeworks.zip?rlkey=4dj8mbn19y6injbjmuxwwck35&e=1&dl=0) | [Ml"leetcode"](https://www.tensortonic.com/)
 
 ---
 
