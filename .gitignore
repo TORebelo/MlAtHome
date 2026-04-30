@@ -1,0 +1,30 @@
+# Local working copies of scaffolded notebooks (template→local pattern)
+# Each sprint commits scaffolded.ipynb; user works on solutions/local.ipynb
+**/solutions/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# stray output redirects
+=*
+
+# personal notes / drafts not meant to ship
+*.local.md
+*.local.ipynb
