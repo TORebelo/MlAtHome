@@ -19,14 +19,16 @@
 
 ## 🧪 OPCIONAL: Preparação Prática (Sprint 0)
 
-**Recurso:** [MIT 6.0002 — Computational Thinking & Data Science](https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/)
+**Recurso de vídeo:** [MIT 6.0002 — Computational Thinking & Data Science](https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/) (Prof. John Guttag), aulas 4-10.
+
+**Notebook hands-on:** [`Fase1_Foundation/Sprint00_StochasticThinking/`](Fase1_Foundation/Sprint00_StochasticThinking/) — 15 micro-tasks com assertions, do random walk ao two-sample t-test. Vê o capítulo do Guttag, abre o notebook, escreve o código.
 
 **Quando usar:**
 - Se precisares de ponte entre programação básica e estatística aplicada
 - Foco em: Monte Carlo, intervalos de confiança, amostragem, erros experimentais
 - Útil antes de mergulhar em ESL (Sprint 2)
 
-**Aulas recomendadas:** 4–10 (Stochastic Thinking, Monte Carlo, CI, Experimental Data)
+**Convenção:** O `scaffolded.ipynb` é o template (committed). Trabalhas em `solutions/local.ipynb` (gitignored). Vê o README do sprint para os detalhes.
 
 ---
 
