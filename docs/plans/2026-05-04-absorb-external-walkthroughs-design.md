@@ -136,23 +136,23 @@ Initial state: all `planned`. Updated during execution.
 | 3 | Linear models (Fase 1) | — (link-only) | mml-book has no LICENSE; `Reference:` link to GitHub. User-owned `scaffolded.ipynb` for `Build:` | — | link-only |
 | 4 | PCA (Fase 1) | — (link-only) | same as Sprint 3 | — | link-only |
 | 5 | MLP+Backprop (Fase 2) | karpathy-nn-zero-to-hero | `lectures/micrograd/`, `lectures/makemore/{1..5}/` | YT L1–L5 | walkthrough-written |
-| 7 | Attention/Transformers (Fase 2) | karpathy-nn-zero-to-hero | `lectures/gpt/`, `lectures/tokenizer/` | YT L7+L8 | planned |
-| 8 | VAE/Generative (Fase 2) | labmlai-annotated-dl | `labml_nn/diffusion/{ddpm,ddim,stable_diffusion}/` | — | planned |
-| 9 | Bandits/Tabular (Fase 3) | fareedkhan-all-rl-algorithms, openai-spinningup | FareedKhan: REINFORCE+SARSA+Q-Learning notebooks. Spinning Up: VPG docs+code. | — | planned |
-| 10 | PG/PPO (Fase 3) | cleanrl, fareedkhan-all-rl-algorithms, labmlai-annotated-dl | CleanRL: ppo.py, sac.py, ddpg.py, td3.py. FareedKhan: A2C/A3C/TRPO/PPO/DDPG/SAC notebooks. labmlai: PPO ref. | — | planned |
-| 11 | RL applied (finance) (Fase 3) | ai4finance-finrl | `tutorials/`, 1 stock-trading example | — | planned |
-| 11.5 | AlphaZero/MuZero (Fase 3, novo) | werner-duvaud-muzero-general | `games/` (1 game config), `muzero.py` core | — | planned |
-| 13 | Evaluation (Fase 4) | made-with-ml | `madewithml/{tests,evaluation}.py`, testing notebooks | — | planned |
-| 14 | MLOps (Fase 4) | made-with-ml | `madewithml/` complete pipeline (data, train, tune, serve, predict, monitor) | — | planned |
-| 15 | Applied portfolio (Fase 4) | made-with-ml | reuse Sprint 14 snapshot as scaffold reference | — | planned |
-| 16 | LLM Internals (Fase 5) | handsonllm-hands-on-llms | `chapter01-03/`, `chapter08/`, `chapter10/` | — | planned |
-| 17 | RAG Fundamentals (Fase 5) | nirdiamant-rag-techniques | `all_rag_techniques/{simple_rag,query_transformations,semantic_chunking,...}` (~6 notebooks) | — | planned |
-| 18 | RAG Advanced (Fase 5) | nirdiamant-rag-techniques | `all_rag_techniques/{reranking,fusion,self_rag,corrective_rag,graph_rag}` (~6 notebooks) | — | planned |
-| 19 | Agents Fundamentals (Fase 5) | nirdiamant-genai-agents | beginner notebooks (3) + LangGraph framework tutorial (2) | — | planned |
-| 20 | Multi-agent (Fase 5) | nirdiamant-genai-agents | Scientific Paper Agent, ATLAS, 1 business agent | — | planned |
-| 21 | Agentic RAG produção (Fase 5) | nirdiamant-genai-agents, nirdiamant-rag-techniques | Controllable RAG Agent + RAG evaluation notebooks | — | planned |
-| 22 | Fine-tuning (Fase 5) | handsonllm-hands-on-llms | `chapter11-12/` (LoRA, QLoRA, DPO) | — | planned |
-| 23 | MCP/A2A (Fase 5) | microsoft-ai-agents-for-beginners | Lesson 11 (MCP/A2A/NLWeb) + Lesson 14 (MAF) | — | planned |
+| 7 | Attention/Transformers (Fase 2) | karpathy-nano-gpt, karpathy-minbpe | `nanoGPT/{model.py,train.py,config/train_shakespeare_char.py}`, `minbpe/{minbpe/,lecture.md}` | YT L7+L8 | walkthrough-written |
+| 8 | VAE/Generative (Fase 2) | labmlai-annotated-dl | `labml_nn/diffusion/{ddpm,stable_diffusion}/` | — | walkthrough-written |
+| 9 | Bandits/Tabular (Fase 3) | fareedkhan-all-rl-algorithms, openai-spinningup | FareedKhan: Q-learning, SARSA, Expected SARSA, Dyna-Q, MCTS notebooks. Spinning Up: VPG (vpg.py + core.py) bridge. | — | walkthrough-written |
+| 10 | PG/PPO (Fase 3) | cleanrl, fareedkhan-all-rl-algorithms, labmlai-annotated-dl | CleanRL: ppo.py, ppo_atari.py, ppo_continuous, sac_continuous, ddpg_continuous, td3_continuous, dqn.py. FareedKhan: REINFORCE/A2C/A3C/TRPO/SAC/DQN didáticos. labmlai: PPO + GAE. | — | walkthrough-written |
+| 11 | RL applied (finance) (Fase 3) | ai4finance-finrl | `finrl/meta/env_*`, `finrl/applications/{stock_trading,imitation_learning}`, `examples/FinRL_StockTrading_2026_*.py` + ensemble + portfolio demo | — | walkthrough-written |
+| 11.5 | AlphaZero/MuZero (Fase 3, novo) | werner-duvaud-muzero-general | `muzero.py`, `models.py`, `self_play.py`, `replay_buffer.py`, `trainer.py`, `shared_storage.py`, `diagnose_model.py`, `games/{cartpole,connect4,abstract_game,tictactoe}.py` | — | walkthrough-written |
+| 13 | Evaluation (Fase 4) | made-with-ml | `madewithml/evaluate.py`, `tests/{code,data,model}/` (test pyramid + behavioral) | — | walkthrough-written |
+| 14 | MLOps (Fase 4) | made-with-ml | `madewithml/{config,data,train,tune,models,serve,predict}.py`, `deploy/{services,jobs}/`, `cluster_compute.yaml`, `notebooks/madewithml.ipynb` | — | walkthrough-written |
+| 15 | Applied portfolio (Fase 4) | made-with-ml | reuse Sprint 14 snapshot as scaffold reference (README, pyproject, Makefile, config, conftest) | — | walkthrough-written |
+| 16 | LLM Internals (Fase 5) | handsonllm-hands-on-llms | `chapter01/`, `chapter02/`, `chapter03/`, `chapter08/`, `chapter10/` | — | walkthrough-written |
+| 17 | RAG Fundamentals (Fase 5) | nirdiamant-rag-techniques | simple_rag, choose_chunk_size, semantic_chunking, query_transformations, HyDE, contextual_compression, contextual_chunk_headers, document_augmentation, proposition_chunking | — | walkthrough-written |
+| 18 | RAG Advanced (Fase 5) | nirdiamant-rag-techniques | reranking, fusion_retrieval, self_rag, crag, reliable_rag, graph_rag, Microsoft_GraphRag, raptor, hierarchical_indices, adaptive_retrieval | — | walkthrough-written |
+| 19 | Agents Fundamentals (Fase 5) | nirdiamant-genai-agents | simple_conversational, simple_qa, task_oriented, memory_enhanced + memory-tutorial, langgraph-tutorial, simple_travel_planner, data_analysis (×2 — LangChain + PydanticAI) | — | walkthrough-written |
+| 20 | Multi-agent (Fase 5) | nirdiamant-genai-agents | multi_agent_collaboration, scientific_paper, systematic_review, Academic_Task_Learning_Agent (ATLAS) + chiron, blog_writer_swarm + research_team_autogen, customer_support + sales_call_analyzer | — | walkthrough-written |
+| 21 | Agentic RAG produção (Fase 5) | nirdiamant-genai-agents, nirdiamant-rag-techniques | Agentic_RAG, contextual_quoting, reliable_rag, retrieval_with_feedback_loop, explainable_retrieval, evaluation/{define_metrics, end-2-end, evalute_rag.py, deep_eval, grouse, open-rag-eval} | — | walkthrough-written |
+| 22 | Fine-tuning (Fase 5) | handsonllm-hands-on-llms | `chapter11/` (BERT) + `chapter12/` (SFT, LoRA, QLoRA, DPO) | — | walkthrough-written |
+| 23 | MCP/A2A (Fase 5) | microsoft-ai-agents-for-beginners | `11-agentic-protocols/code_samples/{mcp,a2a,mcp-agents,github-mcp}` + `14-microsoft-agent-framework/code-samples/{sequential,concurrent,conditional,handoff,human-loop,middleware,hotel_booking_workflow_sample.py}` | — | walkthrough-written |
 
 **Reuse of snapshots** (avoid duplication):
 - Made with ML vendored once at `Sprint14_MLOps/external/`. Sprints 13 and 15 reference it via relative path.
