@@ -929,6 +929,15 @@ find . -path '*/external/*' -name '_ATTRIBUTION.md' -execdir ../../scripts/valid
 
 Each sprint markdown task = ~15-20 min. Pattern from Sprint 5 (Phase 3 Task 3.4) applies. Can be dispatched in parallel via subagents.
 
+### IMPORTANT: corrections from Sprint 5 PILOT (apply to ALL sprints)
+
+1. **Path depth: `../../../FaseN_*` (3 levels, NOT 2).** Sprint markdowns live at `docs/study/faseN-*/sprintNN-*.md`, so to reach `FaseN_*/` at repo root you need `../../../`. The plan's earlier Task 3.4 examples showed `../../` which was wrong. Use this as canonical:
+   ```
+   Walkthrough:  ../../../Fase2_DeepLearning/Sprint05_MLP/external/karpathy-nn-zero-to-hero/micrograd/
+   ```
+
+2. **Vendor folder structure: no upstream wrapper segment.** When `cp -r lectures/X external/repo-slug/` is used, `X/` lands directly under the repo slug — there's no `lectures/X/` wrapper. So `Walkthrough:` paths skip the upstream parent folder name. For Karpathy: `external/karpathy-nn-zero-to-hero/micrograd/` (NOT `.../lectures/micrograd/`).
+
 For each of these sprints, replicate the Sprint 5 markdown structure (`### Sessão N` blocks with all template fields filled from the vendored content):
 
 - **Task 6.1:** Sprint 7 — Attention/Transformers (Karpathy GPT + tokenizer)
