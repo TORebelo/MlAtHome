@@ -7,10 +7,9 @@ file="${1:?Usage: validate-sprint.sh <sprint.md>}"
 [ -f "$file" ] || { echo "FAIL: $file not found"; exit 1; }
 errors=0
 
-# Required field
+# Build: line is conventional but not strict — some sprints (portfolio capstones) use different shapes.
 if ! grep -qE '^Build:|^\*\*Build:\*\*|Build: ' "$file"; then
-  echo "FAIL: $file no Build: line in any session"
-  errors=$((errors+1))
+  echo "WARN: $file no Build: line — confirm sprint shape is intentional (e.g. portfolio capstone)"
 fi
 
 # If file mentions external/ vendor path, must have Walkthrough+Source
