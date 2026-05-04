@@ -4,6 +4,11 @@
 
 **O que sai daqui:** intuição para "curse of dimensionality", PCA implementada via SVD (uma vez do zero — load-bearing para perceber o que o sklearn faz), feature selection rigorosa, e quando regressão linear colapsa em `p > N`.
 
+> **mml-book PCA companion notebook** (link only — não vendored): abrir lado-a-lado.
+> - https://github.com/mml-book/mml-book.github.io/blob/master/tutorials/tutorial_pca.ipynb (+ `.solution.ipynb`)
+>
+> **Source:** https://github.com/mml-book/mml-book.github.io
+
 ---
 
 ## Semana 1 — Curse of dimensionality + PCA

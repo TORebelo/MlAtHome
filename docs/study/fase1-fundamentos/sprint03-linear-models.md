@@ -4,6 +4,12 @@
 
 **O que sai daqui:** dominas regressão linear, ridge, lasso, elastic net, logistic, e GMM com EM. Implementação from-scratch só onde dá intuição (closed-form OLS, ridge, sigmoid). Resto via `sklearn`.
 
+> **mml-book companion notebooks** (link only — não vendored, ver `docs/plans/license-verification-2026-05-04.md`): abrir lado-a-lado para fill-in-the-blank com solutions.
+> - Linear Regression: https://github.com/mml-book/mml-book.github.io/blob/master/tutorials/tutorial_linear_regression.ipynb (+ `.solution.ipynb`)
+> - GMM (Sessão 7 abaixo): https://github.com/mml-book/mml-book.github.io/blob/master/tutorials/tutorial_gmm.ipynb (+ `.solution.ipynb`)
+>
+> **Source:** https://github.com/mml-book/mml-book.github.io
+
 ---
 
 ## Semana 1 — Regressão e regularização
