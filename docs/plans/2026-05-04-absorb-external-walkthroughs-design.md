@@ -67,6 +67,16 @@ Output:       [Sprint0X/notebooks/yy.ipynb + 1 plot + 1 nota]
 Original work © {authors}. See `LICENSE` in this folder.
 ```
 
+**Non-commercial flag (NirDiamant repos only):**
+
+NirDiamant/RAG_Techniques and NirDiamant/GenAI_Agents use a Custom License Agreement permitting non-commercial use only with attribution. For these vendor folders, append the following to `_ATTRIBUTION.md`:
+
+```markdown
+**License flag:** Non-commercial only. Commercial use requires written permission from Nir Diamant (nirdiamant21@gmail.com).
+```
+
+If MlAtHome ever becomes commercial, NirDiamant snapshots must be removed.
+
 **`_SNAPSHOT.md` template:**
 ```markdown
 # Snapshot
@@ -123,8 +133,8 @@ Initial state: all `planned`. Updated during execution.
 
 | # | Sprint | Repos vendored | Vendor scope | Video? | Status |
 |---|---|---|---|---|---|
-| 3 | Linear models (Fase 1) | mml-book | `tutorials/linear_regression.{ipynb,_solutions.ipynb}` | — | planned |
-| 4 | PCA (Fase 1) | mml-book | `tutorials/pca.{ipynb,_solutions.ipynb}` | — | planned |
+| 3 | Linear models (Fase 1) | — (link-only) | mml-book has no LICENSE; `Reference:` link to GitHub. User-owned `scaffolded.ipynb` for `Build:` | — | link-only |
+| 4 | PCA (Fase 1) | — (link-only) | same as Sprint 3 | — | link-only |
 | 5 | MLP+Backprop (Fase 2) | karpathy-nn-zero-to-hero | `lectures/micrograd/`, `lectures/makemore/{1..5}/` | YT L1–L5 | planned |
 | 7 | Attention/Transformers (Fase 2) | karpathy-nn-zero-to-hero | `lectures/gpt/`, `lectures/tokenizer/` | YT L7+L8 | planned |
 | 8 | VAE/Generative (Fase 2) | labmlai-annotated-dl | `labml_nn/diffusion/{ddpm,ddim,stable_diffusion}/` | — | planned |
@@ -150,6 +160,7 @@ Initial state: all `planned`. Updated during execution.
 - Hands-On LLMs vendored once at `Sprint16_LLMInternals/external/`; Sprint 22 references same snapshot.
 
 **Reference shelf** (no vendor; linked from `docs/study/README.md`):
+- `mml-book/mml-book.github.io` — `tutorials/{linear_regression,pca}.{ipynb,solution.ipynb}` linked for Sprints 3+4 (vendor blocked: no LICENSE in upstream).
 - `TheAlgorithms/Python` — `Deeper:` opcional para SMO, K-means, t-SNE.
 - `dair-ai/Prompt-Engineering-Guide` — leitura ReAct/Tool Use ~2h antes de Sprint 19.
 - `academic/awesome-datascience` — descoberta lateral de tools.
@@ -320,7 +331,7 @@ Repos vendored com atribuição completa em `Fase{N}_X/Sprint0Y/external/{repo}/
 |---|---|---|
 | Karpathy nn-zero-to-hero | Sprint 5, 7 | MLP+backprop, GPT from scratch, BPE |
 | labmlai annotated DL papers | Sprint 8, 10 | Diffusion (DDPM/DDIM/SD), PPO ref |
-| mml-book | Sprint 3, 4 | Linear Regression + PCA notebooks (learning + solutions) |
+<!-- mml-book row removed: no LICENSE in upstream repo, fell back to Reference link in Sprints 3+4. See license-verification-2026-05-04.md. -->
 | FareedKhan all-rl-algorithms | Sprint 9, 10 | 18 RL algos didáticos (A2C, A3C, TRPO, SAC, MADDPG) |
 | CleanRL | Sprint 10 | Single-file PPO, SAC, DDPG, TD3 (production-grade) |
 | OpenAI Spinning Up | Sprint 9 | VPG docs + code, theoretical anchor |
@@ -376,10 +387,11 @@ Pre-vendor checklist for each repo:
 - [ ] License file copied into `external/{repo}/LICENSE`.
 - [ ] Attribution complete in `_ATTRIBUTION.md`.
 
-**Known concerns to verify at vendor time:**
-- `mml-book` notebooks — likely CC-BY-SA via the book; verify before vendoring.
-- `handsonllm-hands-on-llms` — book is O'Reilly (proprietary), but the repo of notebooks should be permissive; verify the repo's own LICENSE.
-- All others (Karpathy, Made with ML, NirDiamant, FareedKhan, CleanRL, Spinning Up, FinRL, muzero-general, Microsoft) — repo READMEs already indicated MIT or Apache; verify on vendor.
+**Verified 2026-05-04** (see `license-verification-2026-05-04.md`):
+- 12 of 13 repos have permissive licenses (MIT or Apache-2.0).
+- NirDiamant repos (RAG_Techniques + GenAI_Agents) have Custom non-commercial license — vendor permitted with attribution + non-commercial flag in `_ATTRIBUTION.md`.
+- **`mml-book`: BLOCKED** — no LICENSE in upstream repo. Sprints 3+4 fall back to `Reference:` link to GitHub instead of `Walkthrough:` to vendored files. Manifest updated.
+- `labmlai`: LICENSE is lowercase `license` filename — vendor copy must preserve casing.
 
 ---
 

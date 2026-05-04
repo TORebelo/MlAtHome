@@ -830,21 +830,14 @@ rm -rf /tmp/labmlai
 
 ---
 
-### Task 5.3: Vendor `mml-book` for Sprints 3+4
+### Task 5.3: ~~Vendor `mml-book`~~ — **SKIPPED (link-only)**
 
-Same pattern. Subset: `tutorials/{linear_regression,pca}.{ipynb,_solutions.ipynb}` per sprint.
+Per `license-verification-2026-05-04.md`: mml-book has no LICENSE in upstream repo, so vendoring is blocked. Sprints 3+4 fall back to `Reference:` link to the GitHub URLs:
 
-```bash
-git clone --depth 1 https://github.com/mml-book/mml-book.github.io.git /tmp/mml
-# Copy to both Sprint03_LinearModels and Sprint04_PCA
-# (only the relevant tutorial each)
-```
+- Linear Regression: `https://github.com/mml-book/mml-book.github.io/blob/master/tutorials/tutorial_linear_regression.ipynb` (and `.solution.ipynb`)
+- PCA: `https://github.com/mml-book/mml-book.github.io/blob/master/tutorials/tutorial_pca.ipynb` (and `.solution.ipynb`)
 
-Two vendor folders:
-- `Fase1_Foundation/Sprint03_LinearModels/external/mml-book/` (linear_regression notebooks)
-- `Fase1_Foundation/Sprint04_PCA/external/mml-book/` (pca notebooks)
-
-Validate, commit, cleanup.
+No vendor work; sprint markdowns in Tasks 6.3 + 6.4 use `Reference:` for these links and create user-owned `scaffolded.ipynb` for `Build:`.
 
 ---
 
@@ -940,8 +933,8 @@ For each of these sprints, replicate the Sprint 5 markdown structure (`### Sess�
 
 - **Task 6.1:** Sprint 7 — Attention/Transformers (Karpathy GPT + tokenizer)
 - **Task 6.2:** Sprint 8 — VAE/Generative (existing content + add labmlai diffusion sessions)
-- **Task 6.3:** Sprint 3 — Linear models (mml-book Linear Regression notebook becomes Build)
-- **Task 6.4:** Sprint 4 — PCA (mml-book PCA notebook becomes Build)
+- **Task 6.3:** Sprint 3 — Linear models. mml-book is link-only (no vendor); use `Reference:` to GitHub URLs. Create `Fase1_Foundation/Sprint03_LinearModels/notebooks/scaffolded.ipynb` (user-owned, follows mml-book exercises but written fresh).
+- **Task 6.4:** Sprint 4 — PCA. Same pattern as 6.3.
 - **Task 6.5:** Sprint 9 — Bandits/Tabular (FareedKhan + Spinning Up)
 - **Task 6.6:** Sprint 10 — Policy Gradient/PPO (CleanRL + FareedKhan + labmlai)
 - **Task 6.7:** Sprint 11 — RL Finance (FinRL)
