@@ -135,7 +135,7 @@ Initial state: all `planned`. Updated during execution.
 |---|---|---|---|---|---|
 | 3 | Linear models (Fase 1) | — (link-only) | mml-book has no LICENSE; `Reference:` link to GitHub. User-owned `scaffolded.ipynb` for `Build:` | — | link-only |
 | 4 | PCA (Fase 1) | — (link-only) | same as Sprint 3 | — | link-only |
-| 5 | MLP+Backprop (Fase 2) | karpathy-nn-zero-to-hero | `lectures/micrograd/`, `lectures/makemore/{1..5}/` | YT L1–L5 | planned |
+| 5 | MLP+Backprop (Fase 2) | karpathy-nn-zero-to-hero | `lectures/micrograd/`, `lectures/makemore/{1..5}/` | YT L1–L5 | walkthrough-written |
 | 7 | Attention/Transformers (Fase 2) | karpathy-nn-zero-to-hero | `lectures/gpt/`, `lectures/tokenizer/` | YT L7+L8 | planned |
 | 8 | VAE/Generative (Fase 2) | labmlai-annotated-dl | `labml_nn/diffusion/{ddpm,ddim,stable_diffusion}/` | — | planned |
 | 9 | Bandits/Tabular (Fase 3) | fareedkhan-all-rl-algorithms, openai-spinningup | FareedKhan: REINFORCE+SARSA+Q-Learning notebooks. Spinning Up: VPG docs+code. | — | planned |
