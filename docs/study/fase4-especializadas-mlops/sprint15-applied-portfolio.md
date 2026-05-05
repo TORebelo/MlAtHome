@@ -1,3 +1,4 @@
+<!-- intentional: capstone with Track A/B prose structure -->
 # Sprint 15 — Applied Portfolio Project (semanas 27-28)
 
 **Pergunta nuclear:** *"Vou construir um projeto end-to-end portfolio-quality que demonstre todas as skills das fases anteriores."*
