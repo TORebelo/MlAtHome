@@ -40,7 +40,6 @@ Output:       Fase5_LLMAgents/Sprint22_FineTuning/notebooks/04_dpo.ipynb
 
 Build:        Avaliar o teu modelo fine-tuned em (a) holdout do task domain, (b) MMLU mini ou similar (general capability — para detectar catastrophic forgetting), (c) qualitative review de 20 outputs. Decidir: RAG ou FT ou ambos? Escrever 1 página decision-document para o teu projeto futuro.
 Reference:    Cross-link com Sprint 13 (eval) + Sprint 21 (RAG eval). Ouyang et al. (2022) — InstructGPT (alignment + capability trade-offs). Anthropic — *Constitutional AI* (referência paralela).
-Source:       https://github.com/HandsOnLLM/Hands-On-Large-Language-Models
 Output:       Fase5_LLMAgents/Sprint22_FineTuning/notebooks/05_eval_decision.ipynb + nota `notas/sprint22-resumo.md`.
 
 **Reference:** Hu et al. (2021) — LoRA. Dettmers et al. (2023) — QLoRA. Rafailov et al. (2023) — DPO. Hugging Face `peft` + `trl` libraries. Hands-On LLMs caps 11-12.
