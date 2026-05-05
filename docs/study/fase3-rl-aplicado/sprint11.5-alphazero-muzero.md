@@ -35,7 +35,7 @@ Walkthrough:  ../../../Fase3_RL/Sprint11.5_AlphaZeroMuZero/external/werner-duvau
 Walkthrough:  ../../../Fase3_RL/Sprint11.5_AlphaZeroMuZero/external/werner-duvaud-muzero-general/trainer.py
 Walkthrough:  ../../../Fase3_RL/Sprint11.5_AlphaZeroMuZero/external/werner-duvaud-muzero-general/shared_storage.py
 Reference:    MuZero paper appendix (training procedure). Schaul et al. (2015) — *Prioritized Experience Replay*.
-Source:       https://github.com/werner-duvaud-muzero-general
+Source:       https://github.com/werner-duvaud/muzero-general
 Output:       Fase3_RL/Sprint11.5_AlphaZeroMuZero/notebooks/04_self_play_loop.md
 
 ### Sessão 5 — Run + diagnose: CartPole + Connect4

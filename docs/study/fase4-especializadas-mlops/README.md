@@ -2,7 +2,7 @@
 
 > 4 sprints, 6 semanas. Sprint 12 (GNNs como specialty), Sprint 13 (evaluation rigorosa), Sprint 14 (MLOps deployment dominado por Made with ML vendored), Sprint 15 (1 projeto end-to-end portfolio-quality).
 
-**Pasta de output:** `Fase4_Applied/Sprint1X_Y/`.
+**Pasta de output:** `Fase4_SpecializedMLOps/Sprint1X_Y/`.
 
 ## Sprints
 

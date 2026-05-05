@@ -2,7 +2,7 @@
 
 **Pergunta nuclear:** *"Antes de neural networks, como é que um agente RL aprende? Tabular methods em ambientes pequenos."*
 
-> Sprint walkthrough-augmented. FareedKhan all-rl-algorithms (notebooks didáticos 01-05, 17) está vendored para Q-learning / SARSA / Expected SARSA / Dyna-Q / MCTS. Spinning Up (VPG core) entra como ponte teórica para Sprint 10. Bandits, MDP e Monte Carlo continuam de raíz própria.
+> Sprint walkthrough-augmented. FareedKhan all-rl-algorithms (notebooks didáticos 01-05, 17) está vendored para Q-learning / SARSA / Expected SARSA / Dyna-Q / MCTS. Spinning Up (VPG core) entra como ponte teórica para Sprint 10. Bandits, MDP e Monte Carlo continuam de raiz própria.
 
 1. **Multi-armed bandit.** Build: ε-greedy, UCB1, Thompson sampling em 10-armed bandit. Plotar regret cumulativo. Output: `01_bandits.py`. Reference: Sutton & Barto cap 2. Deeper: FareedKhan `01_simple_rl.ipynb` (intro RL geral, opcional).
 

@@ -82,13 +82,23 @@ docs/study/
 │   └── sprint08-vae-generative.md
 ├── fase3-rl-aplicado/
 │   ├── sprint09-bandits-tabular.md
-│   ├── sprint10-policy-gradient-ppo.md
-│   └── sprint11-rl-finance-applied.md
+│   ├── sprint10-policy-gradient.md
+│   ├── sprint11-rl-finance.md
+│   └── sprint11.5-alphazero-muzero.md
 ├── fase4-especializadas-mlops/
 │   ├── sprint12-gnn-graphs.md
-│   ├── sprint13-evaluation-rigorous.md
+│   ├── sprint13-evaluation.md
 │   ├── sprint14-mlops-deployment.md
 │   └── sprint15-applied-portfolio.md
+├── fase5-llm-agents/
+│   ├── sprint16-llm-internals.md
+│   ├── sprint17-rag-fundamentals.md
+│   ├── sprint18-rag-advanced.md
+│   ├── sprint19-agents-fundamentals.md
+│   ├── sprint20-multi-agent.md
+│   ├── sprint21-agentic-rag-production.md
+│   ├── sprint22-fine-tuning.md
+│   └── sprint23-mcp-a2a.md
 ├── notas/
 └── relatorios/
 ```
@@ -100,6 +110,7 @@ docs/study/
 - [ ] **Fase 2** — Deep Learning
 - [ ] **Fase 3** — RL + Aplicado
 - [ ] **Fase 4** — Especializadas + MLOps + Applied Portfolio
+- [ ] **Fase 5** — LLM/Agents
 
 ## Bibliografia ao lado (PDFs recomendados)
 

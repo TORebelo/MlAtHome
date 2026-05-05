@@ -36,7 +36,7 @@ Output:       Fase4_SpecializedMLOps/Sprint15_Portfolio/notebooks/00_scaffold_pl
 
 **Track B — NLP product** (mais wide industry appeal):
 - Problema: financial sentiment / earnings transcript Q&A.
-- Stack: HuggingFace + RAG + vector DB (Chroma/Qdrant). Anteciba Fase 5.
+- Stack: HuggingFace + RAG + vector DB (Chroma/Qdrant). Antecipa Fase 5.
 - Frontend: Streamlit ou Next.js.
 - Deploy: vivo com auth simples.
 - Demo: video curto + blog post.

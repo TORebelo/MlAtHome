@@ -73,6 +73,7 @@
 
 5. **Final deployment.** Build: deploy real (Railway / Fly.io / Render) de um model com monitoring + URL pública. Replicar a forma do MWML mas em stack mais leve.
    Walkthrough:  ../../../Fase4_SpecializedMLOps/Sprint14_MLOps/external/made-with-ml/notebooks/madewithml.ipynb (notebook end-to-end como referência integradora)
+   Source:       https://github.com/GokuMohandas/Made-With-ML
    Output:       Fase4_SpecializedMLOps/Sprint14_MLOps/13_deploy/ + URL viva no README.
 
 **Reference:** Huyen — *Designing Machine Learning Systems* (referência core). Sculley et al. (2015) — *Hidden Technical Debt in Machine Learning Systems*. Goku Mohandas — *Made With ML* (lessons completos online + repo vendored).
