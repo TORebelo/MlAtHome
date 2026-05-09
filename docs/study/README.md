@@ -133,6 +133,21 @@ docs/study/
 **LLM/Agents (Fase 5):**
 - Alammar/Grootendorst — *Hands-On Large Language Models* (notebooks Colab vendored em Fase 5; livro O'Reilly opcional)
 
+**Slides (intuição visual, on-demand):**
+
+PDFs em `resources/slides/`. Usar como camada de intuição **antes** de atacar o sprint, não como curso paralelo.
+
+- **MLS** (Andrew Ng, Machine Learning Specialization) — `resources/slides/MLS/`
+  - C1 (Supervised): linear/logistic regression → Sprint 1, 3
+  - C2 (Advanced): NN intro, decision trees → Sprint 5
+  - C3 (Unsupervised + RL intro): clustering, recommenders, RL primer → Sprint 4, 9
+- **DLS** (Andrew Ng, Deep Learning Specialization) — `resources/slides/DLS/`
+  - C1 (NN basics): logistic regression, shallow + deep nets → Sprint 5
+  - C2 (Hyperparams/Optim): regularization, batch norm, Adam → Sprint 1, 5
+  - C3 (ML strategy): error analysis, train/dev/test → Sprint 2 (generalização)
+  - C4 (CNN) → Sprint 6
+  - C5 (Sequence models): RNN, LSTM, attention → Sprint 7
+
 > Para roadmap quant aplicado, ver projeto sister `QuantHome/`. A Fase 6 do QuantHome (`07_ml/`) usa o que aprenderes aqui aplicado a trading real.
 
 ## External walkthroughs absorbed

@@ -18,6 +18,8 @@
 
 **Reference:** Boyd cap 9.1-9.3 (gradient descent). Karpathy: *micrograd* (intuição visual).
 
+**Slides (intuição):** [DLS C2_W2 — Optimization algorithms](resources/slides/DLS/DLS_C2/C2_W2.pdf) (Andrew Ng). Mini-batch, momentum, RMSProp, Adam — vê antes de implementar para teres o mental model.
+
 **Output:** `Fase1_Foundation/Sprint01_Optimization/01_gd_1d.py` + 3 plots (lr pequeno/médio/grande).
 
 - [ ] Sessão 1
